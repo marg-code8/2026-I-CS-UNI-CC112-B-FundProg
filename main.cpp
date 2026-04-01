@@ -11,7 +11,9 @@ int main() {
     int c = suma(a, b);
     std::cout << c << std::endl;
     //std::cout << "La suma de " << a << " y " << b << " es " << c << std::endl;
-    c = resta(a, b);
+    c =resta(a, b);
     std::cout << c << std::endl;
+    c = product(a, b);
+    std:: cout << "El producto de " << a  << " y "<< b << " es " << c << std::endl;
     return 0;
 }
